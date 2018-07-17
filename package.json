@@ -12,9 +12,21 @@
     "express": "^4.16.2",
     "extract-text-webpack-plugin": "^3.0.2",
     "path": "^0.12.7",
-    "react-router-dom": "^4.3.1"
+    "react-background-slideshow": "^1.0.3",
+    "react-router-dom": "^4.3.1",
+    "react-slideshow-image": "^0.2.2"
   },
   "devDependencies": {
     "concurrently": "^3.5.0"
+  },
+  "resolutions": {
+    "depd": "1.1.2",
+    "path-to-regexp": "0.1.7",
+    "setprototypeof": "1.1.0",
+    "statuses": "1.4.0",
+    "http-errors": "1.6.3",
+    "warning": "4.0.1",
+    "supports-color": "3.2.3",
+    "has-flag": "1.0.0"
   }
 }

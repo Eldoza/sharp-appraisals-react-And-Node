@@ -1,0 +1,9 @@
+.container {
+  /* background-image: url('../../images/Cedar_park_home.png'); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+}

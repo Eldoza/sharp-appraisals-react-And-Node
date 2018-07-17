@@ -1,4 +1,65 @@
 
-.example {
-  background-color: red;
+.container  {
+  display: flex;
+  height: 100%;
+}
+
+.mainHeader {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  list-style: none;
+  text-align: left;
+  width: 60%;
+}
+
+.header {
+  /* text-align: left; */
+  border: none;
+  padding: 6px;
+  margin: auto;
+  list-style: none;
+  flex: 1;
+  font-family: 'Quattrocento', serif;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  transition: 0.2s;
+  text-align: center;
+}
+
+.header:hover {
+  border-style: solid;
+  border-radius: 1px;
+  border-width: thin;
+  background-color: #C1DFF0;
+  border-color: #3587A4;
+  cursor: pointer;
+  font-size: 18px;
+
+}
+
+@media all and (max-width: 600px) {
+  .mainHeader {
+    text-align: center;
+  }
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .container > li {
+    flex-basis: 50%;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .mainHeader {
+    text-align: center;
+  }
+  .container > li {
+    flex-basis: 100%
+  }
+
+  .container {
+    background-color: 
+  }
 }
