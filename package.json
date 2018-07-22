@@ -9,9 +9,11 @@
     "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "dependencies": {
+    "aux": "0.0.6",
     "express": "^4.16.2",
     "extract-text-webpack-plugin": "^3.0.2",
     "path": "^0.12.7",
+    "react-aux": "^1.1.0",
     "react-background-slideshow": "^1.0.3",
     "react-router-dom": "^4.3.1",
     "react-slideshow-image": "^0.2.2"

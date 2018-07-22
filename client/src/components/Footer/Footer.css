@@ -1,4 +1,6 @@
 
 .container {
-  background-color: orange;
+  background-color: #3587A4;
+  display: flex;
+  height: 100px;
 }

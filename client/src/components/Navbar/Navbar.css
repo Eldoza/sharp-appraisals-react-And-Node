@@ -1,5 +1,7 @@
 
 .container  {
+  flex: 0;
+  top: 0;
   display: flex;
   height: 100%;
 }
@@ -25,7 +27,15 @@
   letter-spacing: 0.1em;
   transition: 0.2s;
   text-align: center;
+  text-decoration: none;
 }
+
+.link {
+  text-decoration: none;
+}
+
+.link:visited {color: #000;}
+.link:link { color: #000;}
 
 .header:hover {
   border-style: solid;
@@ -60,6 +70,6 @@
   }
 
   .container {
-    background-color: 
+    background-color:
   }
 }

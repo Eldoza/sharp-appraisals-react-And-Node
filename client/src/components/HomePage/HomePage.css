@@ -1,9 +1,147 @@
 .container {
-  /* background-image: url('../../images/Cedar_park_home.png'); */
+  background-image: url('../../images/Cedar_park_home.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 800px;
+  height: 90vh;
   width: 100%;
+  display: flex;
+}
+
+.faq {
+  height: 150vh;
+  width: 100%;
+  background-color: #3587a4;
+}
+
+.faqHeader {
+  font-family: 'Cinzel', serif;
+  color:  #ffffff;
+  font-size: 32px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  width: 50%;
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: #fff;
+}
+
+.faqHeaderTwo {
+  font-family: 'Cinzel', serif;
+  color:  #ffffff;
+  font-size: 32px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  width: 50%;
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: #fff;
+}
+
+.answerOne {
+  font-family: 'Cinzel', serif;
+  color:  #ffffff;
+  font-size: 26px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  width: 70%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  line-spacing: 5px;
+}
+
+.iconContainer {
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.homeIcon {
+  height: 50px;
+  width: 50px;
+}
+
+.hero {
+  background-color: #c1dff0;
+  background: rgba(0,0,0,0.5);
+  border-style: solid;
+  border-radius: 1px;
+  border-width: medium;
+  border-color: #2d898b;
+  width: 90%;
+  margin: auto;
+}
+
+.heroHeader {
+  font-family: 'Cinzel', serif;
+  color:  #ffffff;
+  font-size: 64px;
+  letter-spacing: 0.2em;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.subHeroHeader {
+  font-family: 'Cinzel', serif;
+  color:  #ffffff;
+  font-size: 38px;
+  letter-spacing: 0.2em;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.smallHeader {
+  font-family: 'Cinzel', serif;
+  color:  #ffffff;
+  font-size: 26px;
+  letter-spacing: 0.2em;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  padding-top: 50px;
+  border-top-style: solid;
+  border-top-width: medium;
+  border-top-color: #fff;
+  text-align: center;
+  width: 85%;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.appraisalFaq {
+  background-color: #c1dff0;
+  background: rgba(0,0,0,0.5);
+  border-style: solid;
+  border-radius: 1px;
+  border-width: medium;
+  border-color: #2d898b;
+  width: 100%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
