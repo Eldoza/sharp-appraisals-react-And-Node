@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Footer from '../Footer'
 import Navbar from '../Navbar'
+import styles from './Main.css'
 
 class Main extends Component {
   state = {
@@ -25,7 +26,7 @@ class Main extends Component {
 
   render() {
     return (
-      <div>
+      <div className={ styles.container }>
         <Navbar />
         { this.props.children }
         {/* <Footer /> */}

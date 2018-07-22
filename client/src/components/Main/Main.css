@@ -5,7 +5,13 @@ font-family: 'Quattrocento', serif; */
 Colors:
 
 #88CCF1
- 
+
 /* NavBarBorders: #3587A4 */
 #2D848A
 #2D898B
+
+.container {
+  background-color: #3587a4;
+  width: 110%;
+  height: 110%;
+}
