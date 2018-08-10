@@ -1,0 +1,35 @@
+.container {
+    background-image: url('../../images/Cedar_park_home.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+  }
+  
+  .hero {
+    background-color: #c1dff0;
+    background: rgba(0,0,0,0.5);
+    border-style: solid;
+    border-radius: 1px;
+    border-width: medium;
+    border-color: #2d898b;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .text {
+    font-family: 'Cinzel', serif;
+    color:  #ffffff;
+    font-size: 26px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    line-spacing: 5px;
+  }
+  

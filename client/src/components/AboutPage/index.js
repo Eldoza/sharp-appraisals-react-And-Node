@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
-
+import styles from './AboutPage.css'
 class AboutPage extends Component {
 
   render() {
     return (
-      <div>
-        Ayy this is the about page
-      </div>
+      <div className={ styles.container }>
+        <div className={ styles.hero }>
+          <div className={ styles.text}>
+            yo son this be that about page that they talking about
+          </div>
+        </div>
+    </div>
     )
   }
 }

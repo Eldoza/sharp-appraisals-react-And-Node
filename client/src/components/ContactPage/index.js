@@ -1,12 +1,16 @@
 import React, { PureComponent } from 'react'
-
+import styles from './ContactPage.css'
 export class ContactPage extends PureComponent {
 
   render() {
     return (
-      <div style={{backgroundColor: 'red'}}>
-        hi this is the contact page
-      </div>
+      <div className={ styles.container }>
+        <div className={ styles.hero }>
+          <div className={ styles.text}>
+           Yo this be that yung contact page
+          </div>
+        </div>
+    </div>
     )
   }
 }
