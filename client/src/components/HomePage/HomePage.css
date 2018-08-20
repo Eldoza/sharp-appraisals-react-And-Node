@@ -10,24 +10,24 @@
 }
 
 .faq {
-  height: 150vh;
+  height: 125vh;
   width: 100%;
   background-color: #3587a4;
 }
 
-.faqHeader {
+.smallHeaderWhy {
   font-family: 'Cinzel', serif;
+  font-weight: 700;
   color:  #ffffff;
-  font-size: 32px;
-  letter-spacing: 0.2em;
+  font-size: 24px;
+  letter-spacing: 0.1em;
   text-align: center;
-  width: 50%;
+  width: 25%;
   padding-top: 25px;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  border-bottom-style: solid;
-  border-bottom-width: thin;
-  border-bottom-color: #fff;
+  text-transform: uppercase;
 }
 
 .faqHeaderTwo {
@@ -144,4 +144,52 @@
   height: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.footer {
+  text-align: center;
+  background-color: #2d848a;
+  width: 100%;
+  height: 30vh;
+}
+
+.footerHeader {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  color:  #ffffff;
+  font-size: 32px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  width: 25%;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.footerText {
+  font-family: 'Cinzel', serif;
+  color:  #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+  padding-bottom: 75px;
+}
+
+.whyText {
+  font-family: 'Cinzel', serif;
+  color:  #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  width: 70%;
+  margin-top: -15px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
 }

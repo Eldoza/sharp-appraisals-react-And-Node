@@ -55,7 +55,51 @@ class HomeOwner extends Component {
             </p>
           </div>
 
+          <div className={ styles.smallHeaderWhy }>
+            DIVORCE
+          </div>
+          <div className={ styles.whyText }>
+            <p>
+            A divorce is a particularly heartbreaking experience for the parties involved, and it is often more complicated by the strenuous decision of who gets the property. It's a good idea to order an appraisal from Sharp Appraisers so both parties are fully aware of the true market value of their home, regardless of the situation. 
+
+            The parties will have a better idea of what price to set, if they need to sell the home. And on the flip side, if a "buyout" is the chosen option, both parties will feel like they've received a fair assessment. 
+            </p>
+          </div>
+
+          <div className={ styles.smallHeaderWhy }>
+            SETTLING AN ESTATE
+          </div>
+          <div className={ styles.whyText }>
+            <p>
+            Losing a loved one is a painful time in life, and settling an estate from a death, or probate, often entails an appraisal to establish Market Value for the residential property involved. We guarantee the utmost degree of discretion, as we're bound with confidentiality by the ethics provision within the Uniform Standards of Professional Appraisal Practice (USPAP). 
+
+            Most Americans do not have dedicated estate planners or executors to take care of these issues, unlike wealthy individuals. And seeing that a home or other property often makes up an uneven share of the total estate value, knowing the absolute value of the real estate at hand is of essential importance to ensuring disputing parties leave knowing they've received an honest deal. 
+            </p>
+          </div>
+
+           <div className={ styles.smallHeaderWhy }>
+            LET SHARP APPRAISERS ASSIST YOU IN SELLING YOUR HOME QUICKLY AT THE RIGHT PRICE
+          </div>
+          <div className={ styles.whyText }>
+            <p>
+            A professional appraisal will help you make a better educated decision when determining your asking price, whether you choose to sell your home on your own or use the assistance of a real estate agent. Unlike a real estate agent, an appraiser has no vested interest in what amount the house sells for. Our fees are calculated on our efforts to complete the appraisal report and and aren't related to the sales price.
+
+            On a daily basis, we analyze the difference in value items like an additional bathroom or a kitchen remodel can make. Seeking a professional appraisal is a trusted way to determine what improvements will add value and what an appropriate sales price is for your home - so you don't come up short or have your house on the market an unnecessarily long time - because we're experts in knowing how long properties stay on the market.
+            </p>
+          </div>
         </div>
+
+         <div className={ styles.footer }>
+            <div className={ styles.footerHeader}>
+              CONTACT US
+            </div>
+            <div className={ styles.footerText}>
+              Sharp Appraisers <br />
+              200 Lollipop Lane <br />
+              Cedar Park, TX 78613 <br />
+              (512) 797-1844
+            </div>
+         </div>
       </Aux>  
     )
   }

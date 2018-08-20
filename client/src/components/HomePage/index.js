@@ -27,10 +27,10 @@ class HomePage extends Component {
               src={HomeIcon}
             />
           </div>
-          <div className={ styles.faqHeader }>
+          <div className={ styles.smallHeaderWhy }>
             So what is an appraisal and why should I get one?
           </div>
-          <div className={ styles.answerOne }>
+          <div className={ styles.whyText }>
             <p> - A home appraisal is an unbiased estimate of the true (or fair market) value of what a home is worth. All lenders order an appraisal during the mortgage loan process so that there is an objective way to assess the home’s market value and ensure that the amount of money requested by the borrower is appropriate. The actual physical apraisal may last from 15 minutes to several hours, depending on your home's size and complexity.</p>
             <p> - It assures your lender that the money they'll loan you is supported by the researched, observable facts about your home.</p>
           </div>
@@ -42,10 +42,10 @@ class HomePage extends Component {
               src={ContractIcon}
             />
           </div>
-          <div className={ styles.faqHeaderTwo }>
+          <div className={ styles.smallHeaderWhy }>
             How Appraisal Values Are Determined
           </div>
-          <div className={ styles.answerOne }>
+          <div className={ styles.whyText }>
             <p>
               - A property's appraisal value is influenced by recent sales of similar properties and by current market trends. The home's amenities, the number of bedrooms and bathrooms, floor plan functionality and square footage are also key factors in assessing the home's value. The appraiser must do a complete visual inspection of the interior and exterior and note any conditions that adversely affect the property's value, such as needed repairs.
             </p>
@@ -54,6 +54,17 @@ class HomePage extends Component {
             </p>
           </div>
         </div>
+        <div className={ styles.footer }>
+            <div className={ styles.footerHeader}>
+              CONTACT US
+            </div>
+            <div className={ styles.footerText}>
+              Sharp Appraisers <br />
+              200 Lollipop Lane <br />
+              Cedar Park, TX 78613 <br />
+              (512) 797-1844
+            </div>
+         </div>
       </Aux>
     )
   }
