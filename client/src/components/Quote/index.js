@@ -1,17 +1,16 @@
 import React, { Component } from 'react'
 import styles from './Quote.css'
+import Aux from 'react-aux'
 
 class Quote extends Component {
 
   render () {
     return (
+      <Aux>
       <div className={ styles.container }>
-        <div className={ styles.hero }>
-          <div className={ styles.text}>
-            Hi this be the quote page
-          </div>
-        </div>
-    </div>
+          this is the quote page
+      </div>
+     </Aux> 
     )
   }
 }

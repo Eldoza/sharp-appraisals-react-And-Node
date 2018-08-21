@@ -14,7 +14,8 @@ class HomePage extends Component {
             <h2 className={ styles.heroHeader }> Sharp Appraisers </h2>
             <h4 className={ styles.subHeroHeader }> Professional Residential Appraisals </h4>
             <h6 className={ styles.smallHeader }>
-              Serving the local Cedar Park Texas area
+              Serving the local Cedar Park Texas area <br />
+              (512) 797-1844
             </h6>
           </div>
         </div>

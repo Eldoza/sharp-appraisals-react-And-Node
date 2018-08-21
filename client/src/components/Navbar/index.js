@@ -23,11 +23,11 @@ class Navbar extends Component {
               Homeowner
             </Link>
           </li>
-          <li className={ styles.header }>
+          {/* <li className={ styles.header }>
             <Link className={ styles.link } to={'/Homebuyer'} >
               Homebuyer
             </Link>
-          </li>
+          </li> */}
           <li className={ styles.header }>
             <Link className={ styles.link } to={'/Quote'}>
               Quote

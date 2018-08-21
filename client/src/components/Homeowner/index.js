@@ -2,7 +2,11 @@ import React, { Component } from 'react'
 import styles from './Homeowner.css'
 import HomeIcon from '../../images/home_icon.svg'
 import Aux from 'react-aux'
-
+import ContractIcon from '../../images/contract_icon.svg'
+import CoinIcon from '../../images/coin.svg'
+import HouseCarIcon from '../../images/house_car.svg'
+import PrizeIcon from '../../images/prize.svg'
+import HomeLoveIcon from '../../images/sold.svg'
 class HomeOwner extends Component {
 
   render () {
@@ -25,11 +29,18 @@ class HomeOwner extends Component {
 
         <div className={styles.textContainer}>
           <div className={ styles.smallHeaderWhy }>
-            Why get an appraisal?
+            Why get an appraisal As A Homeowner or Buyer?
+          </div>
+          <div className={ styles.iconContainerSmall}>
+            <img
+              alt='Home Car Icon'
+              className={ styles.homeIcon }
+              src={HouseCarIcon}
+                />
           </div>
           <div className={ styles.whyText }>
             <p>
-              Every year, thousands of people in Texas buy, sell or refinance their homes. A lot of these transactions contain a simple line item for an appraisal. And while there are a multiplying number of automated home valuation methods that may appear cheaper than an appraisal, nearly all lenders still want a local expert because the stakes are so high. You might believe that getting a mortgage is the only reason to get an appraisal, but there are additional times when the services of a licensed, independent real estate professional could come in handy.
+              Every year, thousands of people in Texas buy, sell or refinance their homes. A lot of these transactions contain a simple line item for an appraisal. While there are a multiplying number of automated home valuation methods that may appear cheaper than an appraisal, nearly all lenders still want a local expert to ensure an accurate valuation. You might believe that getting a mortgage is the only reason to get an appraisal, but there are additional times when the services of a licensed, independent real estate professional could come in handy.
 
             Whether you are just wondering what your home is worth, or looking for professional help to learn more about your home value, we can help.
             </p>
@@ -37,6 +48,13 @@ class HomeOwner extends Component {
 
            <div className={ styles.smallHeaderWhy }>
             Dispute your tax assessment
+          </div>
+          <div className={ styles.iconContainerSmall}>
+            <img
+              alt='Contract Icon'
+              className={ styles.homeIcon }
+              src={ContractIcon}
+                />
           </div>
           <div className={ styles.whyText }>
             <p>
@@ -46,6 +64,13 @@ class HomeOwner extends Component {
 
            <div className={ styles.smallHeaderWhy }>
             REMOVING PMI WILL LOWER YOUR MORTGAGE PAYMENT
+          </div>
+          <div className={ styles.iconContainerSmall}>
+            <img
+              alt='Coin Icon'
+              className={ styles.homeIcon }
+              src={CoinIcon}
+                />
           </div>
           <div className={ styles.whyText }>
             <p>
@@ -58,6 +83,13 @@ class HomeOwner extends Component {
           <div className={ styles.smallHeaderWhy }>
             DIVORCE
           </div>
+          <div className={ styles.iconContainerSmall}>
+            <img
+              alt='Prize Icon'
+              className={ styles.homeIcon }
+              src={PrizeIcon}
+                />
+          </div>
           <div className={ styles.whyText }>
             <p>
             A divorce is a particularly heartbreaking experience for the parties involved, and it is often more complicated by the strenuous decision of who gets the property. It's a good idea to order an appraisal from Sharp Appraisers so both parties are fully aware of the true market value of their home, regardless of the situation. 
@@ -69,6 +101,13 @@ class HomeOwner extends Component {
           <div className={ styles.smallHeaderWhy }>
             SETTLING AN ESTATE
           </div>
+          <div className={ styles.iconContainerSmall}>
+            <img
+              alt='Contract Icon'
+              className={ styles.homeIcon }
+              src={ContractIcon}
+                />
+          </div>
           <div className={ styles.whyText }>
             <p>
             Losing a loved one is a painful time in life, and settling an estate from a death, or probate, often entails an appraisal to establish Market Value for the residential property involved. We guarantee the utmost degree of discretion, as we're bound with confidentiality by the ethics provision within the Uniform Standards of Professional Appraisal Practice (USPAP). 
@@ -79,6 +118,13 @@ class HomeOwner extends Component {
 
            <div className={ styles.smallHeaderWhy }>
             LET SHARP APPRAISERS ASSIST YOU IN SELLING YOUR HOME QUICKLY AT THE RIGHT PRICE
+          </div>
+          <div className={ styles.iconContainerSmall}>
+            <img
+              alt='Home Love Icon'
+              className={ styles.homeIcon }
+              src={HomeLoveIcon}
+                />
           </div>
           <div className={ styles.whyText }>
             <p>
