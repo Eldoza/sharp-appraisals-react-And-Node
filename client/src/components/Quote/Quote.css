@@ -6,18 +6,7 @@
     background-size: cover;
     height: 90vh;
     width: 100%;
-    display: flex;
-  }
-  
-  .hero {
-    background-color: #c1dff0;
-    background: rgba(0,0,0,0.5);
-    border-style: solid;
-    border-radius: 1px;
-    border-width: medium;
-    border-color: #2d898b;
-    width: 90%;
-    margin: auto;
+    /* display: flex; */
   }
   
   .text {
@@ -33,13 +22,6 @@
     margin-right: auto;
     margin-bottom: 25px;
     line-spacing: 5px;
-  }
-
-  .iframeContainer {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
   }
 
   .footer {
@@ -77,4 +59,14 @@
     margin-right: auto;
     line-height: 2;
     padding-bottom: 75px;
+  }
+
+  .formBox {
+    margin: auto;
+    width: 100%;
+  }
+
+  .header {
+    margin: auto;
+    width: 100%;
   }

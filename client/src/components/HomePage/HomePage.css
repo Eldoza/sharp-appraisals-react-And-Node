@@ -1,4 +1,4 @@
-.container {
+.container1 {
   background-image: url('../../images/Cedar_park_home.png');
   background-position: center center;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@
   width: 50px;
 }
 
-.hero {
+.hero1 {
   background-color: #c1dff0;
   background: rgba(0,0,0,0.5);
   border-style: solid;
@@ -111,7 +111,7 @@
     1px 1px 0 #000;
 }
 
-.smallHeader {
+.smallHeader1 {
   font-family: 'Cinzel', serif;
   color:  #ffffff;
   font-size: 26px;

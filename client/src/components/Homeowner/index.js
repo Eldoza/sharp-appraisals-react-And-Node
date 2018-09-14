@@ -128,7 +128,7 @@ class HomeOwner extends Component {
           </div>
           <div className={ styles.whyText }>
             <p>
-            A professional appraisal will help you make a better educated decision when determining your asking price, whether you choose to sell your home on your own or use the assistance of a real estate agent. Unlike a real estate agent, an appraiser has no vested interest in what amount the house sells for. Our fees are calculated on our efforts to complete the appraisal report and and aren't related to the sales price.
+            A professional appraisal will help you make a better educated decision when determining your asking price, whether you choose to sell your home on your own or use the assistance of a real estate agent. Unlike a real estate agent, an appraiser has no vested interest in what amount the house sells for. Our fees are calculated on our efforts to complete the appraisal report and aren't related to the sales price.
 
             On a daily basis, we analyze the difference in value items like an additional bathroom or a kitchen remodel can make. Seeking a professional appraisal is a trusted way to determine what improvements will add value and what an appropriate sales price is for your home - so you don't come up short or have your house on the market an unnecessarily long time - because we're experts in knowing how long properties stay on the market.
             </p>
@@ -141,9 +141,9 @@ class HomeOwner extends Component {
             </div>
             <div className={ styles.footerText}>
               Sharp Appraisers <br />
-              200 Lollipop Lane <br />
+              201 S. Bell Blvd, Suite 109 <br />
               Cedar Park, TX 78613 <br />
-              (512) 797-1844
+              (512)337-7410
             </div>
          </div>
       </Aux>  

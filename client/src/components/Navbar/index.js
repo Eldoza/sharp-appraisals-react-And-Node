@@ -43,7 +43,7 @@ class Navbar extends Component {
               Coverage
             </Link>
           </li>
-          <li className={ styles.header }>
+          {/* <li className={ styles.header }>
             <Link className={ styles.link } to={'/Contact'}>
               Contact
             </Link>
@@ -52,7 +52,7 @@ class Navbar extends Component {
             <Link className={ styles.link } to={'/About'}>
               About
             </Link>
-          </li>
+          </li> */}
         </ul>
     )
   }

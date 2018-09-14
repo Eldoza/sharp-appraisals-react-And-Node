@@ -9,14 +9,14 @@ class HomePage extends Component {
   render() {
     return (
       <Aux>
-        <div className={ styles.container }>
-          <div className={ styles.hero }>
-            <h2 className={ styles.heroHeader }> Sharp Appraisers </h2>
-            <h4 className={ styles.subHeroHeader }> Professional Residential Appraisals </h4>
-            <h6 className={ styles.smallHeader }>
-              Serving the local Cedar Park Texas area <br />
-              (512) 797-1844
-            </h6>
+        <div className={ styles.container1 }>
+          <div className={ styles.hero1 }>
+            <p className={ styles.heroHeader }> Sharp Appraisers LLC </p>
+            <p className={ styles.subHeroHeader }> Professional Residential Appraisals </p>
+            <p className={ styles.smallHeader1 }>
+              Serving Austin and all surrounding areas <br />
+              (512)337-7410
+            </p>
           </div>
         </div>
 
@@ -60,10 +60,10 @@ class HomePage extends Component {
               CONTACT US
             </div>
             <div className={ styles.footerText}>
-              Sharp Appraisers <br />
-              200 Lollipop Lane <br />
+              Sharp Appraisers LLC <br />
+              201 S. Bell Blvd, Suite 109 <br />
               Cedar Park, TX 78613 <br />
-              (512) 797-1844
+              (512)337-7410
             </div>
          </div>
       </Aux>
