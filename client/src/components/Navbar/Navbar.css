@@ -2,6 +2,7 @@
 .container  {
   flex: 0;
   top: 0;
+  padding-top: 15px;
   display: flex;
   height: 100%;
 }
